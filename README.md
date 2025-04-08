@@ -83,6 +83,8 @@ Each subplot shows how well each model predicted the precipitation data over tim
 
 ## Petri Net Mapping
 
+![Petri Net Diagram](Petri_Net.png)
+
 | Petri Net Concept   | Our Pipeline Equivalent                                |
 |---------------------|--------------------------------------------------------|
 | **Forking**         | Preprocessing sends to both inference & training       |
