@@ -26,7 +26,7 @@ Think of it as creating a small intelligent system where models are not just tra
 
 ## Architecture Diagram
 
-![Process Flow Diagram](Process.jpg)
+![Process Flow Diagram](Images/Process.jpg)
 
 This system models:
 - **Forking (Concurrency)**: One preprocessing stage sends data to both training and inference.
@@ -41,7 +41,7 @@ This system models:
 
 ### Evaluation Metrics
 
-![Comparison of Metrics](Comparison.png)
+![Comparison of Metrics](Images/Comparison.png)
 
 Here’s how the models performed:
 
@@ -53,14 +53,14 @@ Here’s how the models performed:
 
 ### Prediction Graphs (Actual vs Predicted)
 
-![Actual vs Predicted](Graph_Models.png)
+![Actual vs Predicted](Images/Graph_Models.png)
 
 Each subplot shows how well each model predicted the precipitation data over time. GRU and LSTM show closer alignment to the actual values than RNN.
 ---
 
 ### Model Time Comparison
 
-![Time Analysis](Timing.png)
+![Time Analysis](Images/Timing.png)
 
 - **GRU:** **Fastest** overall in both training and inference (Total time: **80.48s**).
 - **RNN:** **Moderate** in speed (Total time: **85.71s**) but **poorest performance**.
@@ -83,7 +83,7 @@ Each subplot shows how well each model predicted the precipitation data over tim
 
 ## Petri Net Mapping
 
-![Petri Net Diagram](Petri_Net.png)
+![Petri Net Diagram](LSTM_ML/Petri_Net.png)
 
 | Petri Net Concept   | Our Pipeline Equivalent                                |
 |---------------------|--------------------------------------------------------|
