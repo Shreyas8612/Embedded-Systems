@@ -68,8 +68,7 @@ Each subplot shows how well each model predicted the precipitation data over tim
 
 ---
 
-## Threading & Concurrency – Explained Like a Human
-
+## Threading & Concurrency
 - **Process**: The whole program running (like your office building).
 - **Thread**: A worker inside the office. Multiple workers (threads) can run tasks.
 - **Mutex**: A locked room — only one person (thread) can enter at a time.
